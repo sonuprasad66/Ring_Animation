@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ring Animation</title>
+  </head>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      min-width: 100vw;
+      min-height: 100vh;
+      background: radial-gradient(#03a9b5, #00009d);
+    }
+    .r {
+      border: 1px solid aqua;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotatex(45deg);
+      border-radius: 50%;
+
+      animation: bounce 5s infinite;
+    }
+    @keyframes bounce {
+      10% {
+        top: calc(50% + 5px);
+        border: 5px solid aqua;
+      }
+      20% {
+        top: calc(50% - 5px);
+        border: 1px solid aqua;
+      }
+      30% {
+        top: 50%;
+      }
+    }
+    .r1 {
+      height: 10px;
+      width: 20px;
+      top: calc(50% + 0px);
+      animation-delay: 0s;
+    }
+    .r2 {
+      height: 20px;
+      width: 40px;
+      top: calc(50% + 1px);
+      animation-delay: 0.2s;
+    }
+    .r3 {
+      height: 30px;
+      width: 60px;
+      top: calc(50% + 2px);
+      animation-delay: 0.4s;
+    }
+    .r4 {
+      height: 40px;
+      width: 80px;
+      top: calc(50% + 3px);
+      animation-delay: 0.6s;
+    }
+    .r5 {
+      height: 50px;
+      width: 100px;
+      top: calc(50% + 4px);
+      animation-delay: 0.8s;
+    }
+    .r6 {
+      height: 60px;
+      width: 120px;
+      top: calc(50% + 5px);
+      animation-delay: 1s;
+    }
+    .r7 {
+      height: 70px;
+      width: 140px;
+      top: calc(50% + 6px);
+      animation-delay: 1.2s;
+    }
+    .r8 {
+      height: 80px;
+      width: 160px;
+      top: calc(50% + 7px);
+      animation-delay: 1.4s;
+    }
+    .r9 {
+      height: 90px;
+      width: 180px;
+      top: calc(50% + 8px);
+      animation-delay: 1.6s;
+    }
+    .r10 {
+      height: 100px;
+      width: 200px;
+      top: calc(50% + 9px);
+      animation-delay: 1.8s;
+    }
+
+    .r11 {
+      height: 110px;
+      width: 220px;
+      top: calc(50% + 10px);
+      animation-delay: 2s;
+    }
+    .r12 {
+      height: 120px;
+      width: 240px;
+      top: calc(50% + 11px);
+      animation-delay: 2.2s;
+    }
+    .r13 {
+      height: 130px;
+      width: 260px;
+      top: calc(50% + 12px);
+      animation-delay: 2.4s;
+    }
+    .r14 {
+      height: 140px;
+      width: 280px;
+      top: calc(50% + 13px);
+      animation-delay: 2.6s;
+    }
+    .r15 {
+      height: 150px;
+      width: 300px;
+      top: calc(50% + 14px);
+      animation-delay: 2.8s;
+    }
+    .r16 {
+      height: 160px;
+      width: 320px;
+      top: calc(50% + 15px);
+      animation-delay: 3s;
+    }
+    .r17 {
+      height: 170px;
+      width: 340px;
+      top: calc(50% + 16px);
+      animation-delay: 3.2s;
+    }
+    .r18 {
+      height: 180px;
+      width: 360px;
+      top: calc(50% + 17px);
+      animation-delay: 3.4s;
+    }
+    .r19 {
+      height: 190px;
+      width: 380px;
+      top: calc(50% + 18px);
+      animation-delay: 3.6s;
+    }
+    .r20 {
+      height: 200px;
+      width: 400px;
+      top: calc(50% + 19px);
+      animation-delay: 3.8s;
+    }
+    .r21 {
+      height: 210px;
+      width: 420px;
+      top: calc(50% + 20px);
+      animation-delay: 4s;
+    }
+    .r22 {
+      height: 220px;
+      width: 440px;
+      top: calc(50% + 21px);
+      animation-delay: 4.2s;
+    }
+    .r23 {
+      height: 230px;
+      width: 460px;
+      top: calc(50% + 22px);
+      animation-delay: 4.4s;
+    }
+    .r24 {
+      height: 240px;
+      width: 480px;
+      top: calc(50% + 23px);
+      animation-delay: 4.6s;
+    }
+    .r25 {
+      height: 250px;
+      width: 500px;
+      top: calc(50% + 24px);
+      animation-delay: 4.8s;
+    }
+    .r26 {
+      height: 260px;
+      width: 520px;
+      top: calc(50% + 25px);
+      animation-delay: 5s;
+    }
+    .r27 {
+      height: 270px;
+      width: 540px;
+      top: calc(50% + 26px);
+      animation-delay: 5.2s;
+    }
+    .r28 {
+      height: 280px;
+      width: 560px;
+      top: calc(50% + 27px);
+      animation-delay: 5.4s;
+    }
+    .r29 {
+      height: 290px;
+      width: 580px;
+      top: calc(50% + 28px);
+      animation-delay: 5.6s;
+    }
+    .r30 {
+      height: 300px;
+      width: 600px;
+      top: calc(50% + 29px);
+      animation-delay: 5.8s;
+    }
+  </style>
+
+  <body>
+    <div class="r r1"></div>
+    <div class="r r2"></div>
+    <div class="r r3"></div>
+    <div class="r r4"></div>
+    <div class="r r5"></div>
+    <div class="r r6"></div>
+    <div class="r r7"></div>
+    <div class="r r8"></div>
+    <div class="r r9"></div>
+    <div class="r r10"></div>
+    <div class="r r11"></div>
+    <div class="r r12"></div>
+    <div class="r r13"></div>
+    <div class="r r14"></div>
+    <div class="r r15"></div>
+    <div class="r r16"></div>
+    <div class="r r17"></div>
+    <div class="r r18"></div>
+    <div class="r r19"></div>
+    <div class="r r20"></div>
+    <div class="r r21"></div>
+    <div class="r r22"></div>
+    <div class="r r23"></div>
+    <div class="r r24"></div>
+    <div class="r r25"></div>
+    <div class="r r26"></div>
+    <div class="r r27"></div>
+    <div class="r r28"></div>
+    <div class="r r29"></div>
+    <div class="r r30"></div>
+  </body>
+</html>
